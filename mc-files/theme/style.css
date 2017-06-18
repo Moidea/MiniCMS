@@ -11,7 +11,7 @@ h1,h2,h3,h4,h5,h6,b,strong { color:#3f3f3f; }
 #sitename a { color:#3f3f3f; }
 #sitename a:hover { color:#44f; }
 #header { margin:40px 0 40px 0; }
-#side { width:100%; margin:0 auto; }
+#side { float:left; width:150px; }
 #navbar { margin-top:30px; }
 #navbar ul, #navbar li { list-style:none; margin:0; padding:0; }
 #navbar a { color:#44F; font-size:18px; display:block; padding-bottom:20px; }
@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,h6,b,strong { color:#3f3f3f; }
 #page_info { font-size:16px; margin-bottom:20px; color:#888; }
 #page_info span { padding:4px; background:#bc0000; color:#fff; border-radius:3px; }
 
-#content { width:100%; margin:0 auto; }
+#content { float:right; width:100%; margin-left:-160px; }
 #content_box { margin-left:160px; border-left:solid 1px #ccc; padding-left:20px; }
 #content .post .title { font-weight:normal; font-size:24px; color:#333; text-shadow: 0 1px 0 #ffffff; margin:0; padding:0 0 10px 0; }
 #content .post .title a { color:#3f3f3f; }
