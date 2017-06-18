@@ -1,5 +1,6 @@
 <?php
 require 'head.php';
+date_default_timezone_set('PRC');//设置为中华人民共和国
 
 $page_file        = '';
 $page_path        = '';
